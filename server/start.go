@@ -1,9 +1,11 @@
 package main
 
-import "s-url/core"
+import (
+	"github.com/sreio/s-url/core"
+)
 
 func init() {
-	core.Init() // 初始化框架
+	core.Init() // 初始化
 }
 
 //go:generate go env -w GO111MODULE=on
